@@ -1,0 +1,25 @@
+{
+  "name": "admin_bro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@admin-bro/express": "^3.1.0",
+    "@admin-bro/mongoose": "^1.1.0",
+    "admin-bro": "^4.0.1",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-session": "^1.17.2",
+    "lru-cache": "^6.0.0",
+    "mongoose": "^6.0.13",
+    "mongoose-auto-increment": "^5.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
